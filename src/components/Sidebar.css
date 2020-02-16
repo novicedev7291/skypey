@@ -1,0 +1,15 @@
+.Sidebar {
+    width: 80px;
+    height: 100%;
+    background-color: rgba(32, 32, 35, 1);
+    border-right: 1px solid rgba(182, 182, 189, 0.1);
+    transition: width 0.3s;
+    overflow-y: scroll;
+}
+
+/*Not small devices*/
+@media (min-width: 576px){
+    .Sidebar {
+        width: 320px;
+    }
+}
